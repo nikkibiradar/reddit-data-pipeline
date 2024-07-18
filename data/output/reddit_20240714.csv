@@ -1,0 +1,78 @@
+over_18,edited,title,spoiler,num_comments,selftext,score,author,created_utc,url,stickied,id,upvote_ratio
+False,False,"What is the relation between user_messages and Messages tables. It doesn't make sense. ( I am new, sorry if this is very silly question)",False,51,,49,HistoryReasonable715,2024-07-14 09:32:20,https://i.redd.it/jfgm3vgeegcd1.png,False,1e2y81l,0
+False,False,What is it like to be a Data Engineer Freelancer?,False,27,"Hi everyone,
+
+After 8 years working in the data engineering industry for big corporates and small-medium size companies, I've decided to become a freelancer.
+
+I've been actively seeking new opportunities since January of this year, and figured out that, compared to 2020-2021, now hiring processes are ridicolously long, time-consuming and tedious that you end up being rejected after spending 2 months of take home assessments, abstract leetcode questions, and technical meetings.
+
+Do you have any experience as a freelancer in the data engineering field? How is it? Would like to receive some feedback, thanks!
+
+",35,Fragrant_Grape_4934,2024-07-14 12:23:56,https://www.reddit.com/r/dataengineering/comments/1e3116g/what_is_it_like_to_be_a_data_engineer_freelancer/,False,1e3116g,0
+False,False,Monoliths vs microservices in data?,False,3,,10,engineer_of-sorts,2024-07-14 10:06:54,https://i.redd.it/iaxu3rbpkgcd1.jpeg,False,1e2yr34,0
+False,False,Whata is Data Pipeline Optimization,False,3,"I am new to the data engineering field. To get started I did some end to end projects where I created data pipeline using ADF to upload data to Azure from on-premise database, transformed the data using databricks, analyzed it using Synapse Analytics and finally vizualize it using Power BI.
+
+Now I read some blogs about data engineering and I keep on seeing this term frequently 'Pipeline Optimization' but didn't really understand what it is and how to do it.
+
+Can u guys give some example scenarios of Data Pipeline Optimization that u ever did or do on your day to day work.",7,Effective-Tie-3149,2024-07-14 13:53:14,https://www.reddit.com/r/dataengineering/comments/1e32u6v/whata_is_data_pipeline_optimization/,False,1e32u6v,0
+False,False,How to create a fast instant spend insight dashboard,False,13,"I live in canada and using td bank. Recently they created an app that gives you spend insights. You spend something it immediately appears in the dash board alongside your other spending for the day. Working with redshift and mysql, i dont think they are capable of providing you with these information almost instantly! I know redshift is pretty powerful database for analytics, heavy joins and group bys, but it cant be this fast. What do they use as database and how is it structured?! Is it cassandra, elastic search or some other db that i am not aware?
+
+Appreciate a bit of details in your answers.
+
+Thanks in advance!",7,Puzzleheadedanxi,2024-07-14 05:17:04,https://www.reddit.com/r/dataengineering/comments/1e2ud7m/how_to_create_a_fast_instant_spend_insight/,False,1e2ud7m,0
+False,False,Demand for datamesh,False,14,"What do you guys think about the demand for datamesh? I’ve noticed it’s trendiness since 2022 but sounds like it’s been quite down, not sure about the current demand.
+
+Edit: I’m asking this to see if it’s worth it to invest my time in it and I’m only 3 years of software engineering experience.",5,itsawesomedude,2024-07-14 12:51:39,https://www.reddit.com/r/dataengineering/comments/1e31jyl/demand_for_datamesh/,False,1e31jyl,0
+False,False,Dbt backfilling/replaying snapshots. Anyone have a good approach for this?,False,2,"I’ve recently been running into this problem. Especially when we’ve identified different requirements for handling the changing data or someone uncovers old excel files they’d like to layer into the database for longer term history.
+
+I wrote a pretty gnarly means of assimilating the data using dbt itself, but I’m not really proud of the extended setup and confusing configuration for it to work. Had to use some unintuitive hacking of the dbt mechanics for it to work.
+
+Curious how anyone else has approached this problem?",5,minormisgnomer,2024-07-14 17:38:44,https://www.reddit.com/r/dataengineering/comments/1e3857w/dbt_backfillingreplaying_snapshots_anyone_have_a/,False,1e3857w,0
+False,False,Genome data pipelines ,False,5,"Hi,
+
+I am trying to set up/create end to end data infrastructure. For large amounts of data.
+I don’t know where to get started. There are FastQ and FastA files so far.",3,Next-Nail9394,2024-07-14 04:10:46,https://www.reddit.com/r/dataengineering/comments/1e2ta0w/genome_data_pipelines/,False,1e2ta0w,0
+False,False,What does great data Engineering mentorship look like?,False,3,Those of you who has had or currently has a great  mentor in data engineering - what does this look like? What are the characteristics of the relationship? How has this helped you on your journey?,3,pipeline_wizard,2024-07-14 21:16:53,https://www.reddit.com/r/dataengineering/comments/1e3d33i/what_does_great_data_engineering_mentorship_look/,False,1e3d33i,1
+False,False,Bridgetable or Array to model M:M relation database,False,2,"Postgresql can handle complex datatypes such as arrays and json. I learned at that normalisation is important and having multiple values in the same attribute breaks 1NF.  With a  many to many  relationship (students & teachers) , what would be now the recommended solution. Having a tables student,  teacher and  student\_teacher.
+
+Or would you have a teachertable and a student table but the studenttable has a column teacher\_id of type array.
+
+",3,Material-Mess-9886,2024-07-14 20:06:56,https://www.reddit.com/r/dataengineering/comments/1e3bkpk/bridgetable_or_array_to_model_mm_relation_database/,False,1e3bkpk,0
+False,False,Changing mindset for big data,False,3,"
+Hello,
+I am a data engineer with extensive experience in DBMS architectures. I recently started a job where I am using Databricks. I am curious to know how others with a DBMS background have adapted their mindset when transitioning to working with big data and Spark.
+",3,Cicada4409,2024-07-14 17:37:19,https://www.reddit.com/r/dataengineering/comments/1e38422/changing_mindset_for_big_data/,False,1e38422,0
+False,False,Doubt on DBT Semantic Layer usage ,False,5,"Hey folks, was thinking of using the DBT as a metric engine. Was going through documentation and have read up on the setup of the different yaml files. Had a query though. If I wanted to drive the final metric creation, but didn’t want to keep it static, how would I do it. What I mean is, let’s say I want to create the metric total sales, and have setup the dimensions as brand and geography. But depending on need, want to either generate for both brand and geography, or only for brand, how do I do this? 
+Would this be in the final model sql where I would pass the granularity in the sql, and if yes, could I get an example on this. 
+Thanks a lot.",3,Tinjar12,2024-07-14 16:53:40,https://www.reddit.com/r/dataengineering/comments/1e371zm/doubt_on_dbt_semantic_layer_usage/,False,1e371zm,0
+False,False,Former Data Analyst / MI Manager made Data Engineering Manager.,False,11,"So I've worked for a company for 10+ years. Its a great company and we had on prem SSIS packages working and been effectively SME for our data for a number of years as a senior data analyst. We had a change and they got some actuaries in to do analytics and created an engineering function within IT. I was asked to be in Engineering as I enjoyed understanding systems and building models. We have a third party vendor who was instructed to build a new platform on a  greenfield site with effectively no guidance but told to not use anything we had (no idea why). The architect unsurprisingly has left. What we have will work but isn't great. I am goodt at SQL and know some Python and can do basic SSIS packages. I need to effectively manage this new enterprise data platform but not sure where to start?!
+
+I am obviously doing DP-203 and done data fundamentals which means I can understand their pipelines build in synapse and their basic ways of working but theres no documentation.
+
+My first idea is to enforce vendor to build up their documentation but other than ETL Framework and Security I'm not sure what else is acceptable to request.
+
+I have no one in my team at moment but two Fixed Term Employees coming in to build effectively on top of what we have (the vendor will still be available but I want things more inhouse and use them as a stretch resource - i also only want to build when we have sufficent artifacts from BA's and Analytics requirements). I want to ensure we have good guard rails to ensure stuff built going forward is in a way I would expect but also be challenging if im going wrong direction.
+
+What sort of things should I be looking? First I want to build out for specific use cases and not applications. We have several data applications models going from source to curated (every table!)  but nothing built around specific topics or functions I. e an underwriting and claims data mart instead of 5 separate applications models linked by bridge tables (some are done using start schemas and others done by SCD as well).
+
+I also need to ensure given its cloud I have thought about security and not sure where to begin? Up until now we've had an open data culture.
+
+Not sure how I ended up in this position, its a great opportunity but incredibly stressful and overwhelming. Any help would be great? Management seem more keen on me ensuring documentation and frameworks than doing coding but I'd quite like to do both if possible.
+
+Apologies for grammar, wording as this is a bit of a brain dump im typing on phone as I fail dp-203 practice exam
+
+Thanks
+",3,AromaticAd6672,2024-07-14 16:30:37,https://www.reddit.com/r/dataengineering/comments/1e36i8q/former_data_analyst_mi_manager_made_data/,False,1e36i8q,0
+False,False,Currently onboarding a third party to work on our data migration - any security protocol / best practices when doing this?,False,1,hello! currently working on a data migration project with an outsourced IT vendor. This is our first time doing a project of this scale - any standard protocols we should be taking around data security?,2,Ok_Huckleberry6185,2024-07-14 19:14:00,https://www.reddit.com/r/dataengineering/comments/1e3aega/currently_onboarding_a_third_party_to_work_on_our/,False,1e3aega,0
+False,False,STTM in Excel,False,2,We're working with STTM (source to target mapping) at my company. It sits in Excel and I don't have any other business context as DE. I'm having a hard time trying to decipher over 300 rows in Excel as many of them require sub queries. Is this a normal process? I would really benefit from a visual overview because I have no idea what's in the tables and how they are connected.,2,Agitated_Ad_1108,2024-07-14 15:21:34,https://www.reddit.com/r/dataengineering/comments/1e34v6k/sttm_in_excel/,False,1e34v6k,0
+False,False,"Have Meta, Anthropic or OpenAI released their data platform details?",False,1,I tried to search but in vain for any detail on how the companies store and process their data. Does anyone in the community have more details?,2,20231027,2024-07-14 12:52:50,https://www.reddit.com/r/dataengineering/comments/1e31kr8/have_meta_anthropic_or_openai_released_their_data/,False,1e31kr8,0
+False,False,Suggestion on Dimensional modeling Aggregations,False,0,"I have a data warehouse in snowflake and power bi is Bi tool. 
+
+I am trying to offload aggregations from power bi to snowflake as much as possible. 
+
+challenge is aggregations are dynamic. and could be based on the various dimensions slice and dice. 
+
+any suggestions how we can accommodate dynamic aggregations on the warehouse level? 
+Thanks ",1,CaptainMalikk,2024-07-14 20:29:09,https://www.reddit.com/r/dataengineering/comments/1e3bywj/suggestion_on_dimensional_modeling_aggregations/,False,1e3bywj,0
+False,False,VSCode Navigator for Apache Pinot,False,0,Execute sql statements and view tables. ,1,hkdelay,2024-07-14 19:07:24,https://marketplace.visualstudio.com/items?itemName=1Schema.pinotdb,False,1e3a95c,0
+False,False,Help a beginner ,False,2,"Hi, I've recently developed an interest in data engineering but I have no idea where to start or what resources to use since there's a lot of technologies out there. So help me out please.",0,iamhealthy_,2024-07-14 19:38:33,https://www.reddit.com/r/dataengineering/comments/1e3ayn3/help_a_beginner/,False,1e3ayn3,0

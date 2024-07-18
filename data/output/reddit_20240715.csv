@@ -1,0 +1,28 @@
+score,stickied,created_utc,edited,url,num_comments,id,title,spoiler,over_18,author
+52,False,2024-07-15 15:46:01,False,https://www.reddit.com/r/dataengineering/comments/1e3y2re/your_dream_data_architecture/,43,1e3y2re,Your dream data Architecture,False,False,bancaletto
+41,False,2024-07-15 02:53:24,False,https://www.reddit.com/r/dataengineering/comments/1e3kaai/i_have_an_ms_in_data_science_should_i_get_a/,62,1e3kaai,"I have an MS in Data Science. Should I get a second MS in Software Engineering, PhD, or Some Certs (it’s free from employer)?",False,False,ParticularBattle2713
+35,False,2024-07-15 05:40:00,False,https://www.reddit.com/r/dataengineering/comments/1e3n522/economical_data_warehouse_based_on_parquet_in_gcp/,23,1e3n522,Economical data warehouse based on Parquet in GCP Storage,False,False,GreymanTheGrey
+23,False,2024-07-15 01:48:26,False,https://www.reddit.com/r/dataengineering/comments/1e3j0k8/crash_course_in_kimball_data_modeling/,2,1e3j0k8,Crash course in Kimball Data Modeling ,False,False,nydasco
+25,False,2024-07-15 20:42:11,False,https://i.redd.it/tcmqddevuqcd1.jpeg,2,1e45med,How often do stakeholders think they are special?,False,False,ivanovyordan
+13,False,2024-07-15 05:24:48,False,https://i.redd.it/m1fphhfabmcd1.png,0,1e3mw63,Building a real-time personalization engine,False,False,ephemeral404
+12,False,2024-07-15 12:56:01,False,https://www.reddit.com/r/dataengineering/comments/1e3u406/cloud_warehouse_bills/,9,1e3u406,Cloud warehouse bills,False,False,Front_Veterinarian53
+14,False,2024-07-15 00:57:15,False,https://www.reddit.com/r/dataengineering/comments/1e3i04w/alternative_to_dbt_metrics/,5,1e3i04w,Alternative to dbt metrics,False,False,Toby1knoby20
+8,False,2024-07-15 06:22:43,False,https://www.reddit.com/r/dataengineering/comments/1e3nt51/would_you_use_a_data_engineer_focused_copilot/,36,1e3nt51,Would you use a Data Engineer focused CoPilot?,False,False,Bright_Bunch_7208
+5,False,2024-07-15 18:41:07,False,https://www.reddit.com/r/dataengineering/comments/1e42iqn/free_sample_data_generator/,4,1e42iqn,Free Sample Data Generator,False,False,ExploAnalytics
+8,False,2024-07-15 17:47:21,False,https://www.reddit.com/r/dataengineering/comments/1e415ze/new_to_databricks_and_snowflakes/,3,1e415ze,New to databricks and snowflakes,False,False,Far-Mixture-2254
+6,False,2024-07-15 21:05:57,False,https://www.reddit.com/r/dataengineering/comments/1e4686z/anyone_work_a_government_job_in_the_us_as_a_de/,3,1e4686z,Anyone work a government job in the US as a DE?,False,False,citizenofacceptance2
+4,False,2024-07-15 13:06:38,False,https://moderndata101.substack.com/p/tearing-down-monolith-the-rise-of-microservices,1,1e3uc5v,Tearing Down the Monolith | The Rise of Microservices & Modular Architecture in Data Engineering,False,False,growth_man
+6,False,2024-07-15 08:55:22,False,https://www.reddit.com/r/dataengineering/comments/1e3q21m/designing_platform_logging_pipeline/,4,1e3q21m,Designing Platform Logging Pipeline,False,False,DifficultyNo3182
+3,False,2024-07-15 09:14:19,False,https://www.reddit.com/r/dataengineering/comments/1e3qc87/glue_visual_studio_help/,2,1e3qc87,Glue Visual Studio Help,False,False,Free-Way-5831
+1,False,2024-07-15 21:38:07,False,https://www.reddit.com/r/dataengineering/comments/1e4717d/de_junior_responsible_for_implement_all_microsoft/,1,1e4717d,DE Junior responsible for implement all Microsoft Fabric enviroment,False,False,chongsurfer
+1,False,2024-07-15 20:49:25,False,https://www.reddit.com/r/dataengineering/comments/1e45swt/seeking_advice_partner_companies_vs_inhouse/,3,1e45swt,Seeking Advice: Partner Companies vs. In-House Development for a Sensor-Based Data Collection System,False,False,dr_danthebandageman
+1,False,2024-07-15 20:25:43,False,https://www.reddit.com/r/dataengineering/comments/1e457gw/databricks_uc_dlt_confusion/,1,1e457gw,Databricks UC / DLT - Confusion....,False,False,RaisinAccurate1278
+1,False,2024-07-15 19:00:34,False,https://www.reddit.com/r/dataengineering/comments/1e430af/mysqltosnowflake_and_postgresqltosnowflake_native/,0,1e430af,MySQL-to-Snowflake and PostgreSQL-to-Snowflake native connectors!,False,False,feelosophy13
+1,False,2024-07-15 18:21:30,False,https://www.reddit.com/r/dataengineering/comments/1e420vl/stuck_with_legacy_data_tech/,2,1e420vl,Stuck with legacy data tech,False,False,photon223
+1,False,2024-07-15 14:33:35,False,https://www.reddit.com/r/dataengineering/comments/1e3walc/would_it_make_sense_to_use_these_tools_in_this/,6,1e3walc,Would it make sense to use these tools in this context? ,False,False,LlosgiTaiBraf
+0,False,2024-07-15 21:21:08,False,https://www.reddit.com/r/dataengineering/comments/1e46lta/snowflake_table_to_postgres/,0,1e46lta,snowflake table to postgres,False,False,Sea-Forever3053
+0,False,2024-07-15 21:18:10,False,https://www.reddit.com/r/dataengineering/comments/1e46j3c/seeking_advice_in_data_engineer_carreer/,0,1e46j3c,Seeking advice in data engineer carreer,False,False,SensitiveCucumber0
+1,False,2024-07-15 15:02:02,False,https://www.datacamp.com/blog/airflow-alternatives,1,1e3wz5i,Top 5 Airflow Alternatives for Data Orchestration (Code Examples Included),False,False,kingabzpro
+1,False,2024-07-14 22:34:35,False,https://www.reddit.com/r/dataengineering/comments/1e3exzs/data_project/,6,1e3exzs,Data Project,False,False,LostVisionary
+0,False,2024-07-15 14:46:22,False,https://www.reddit.com/r/dataengineering/comments/1e3wlbk/python_udfs_in_snowflake/,0,1e3wlbk,Python UDFs in Snowflake,False,False,Datafluent
+0,False,2024-07-15 18:47:02,False,https://www.reddit.com/r/dataengineering/comments/1e42o3l/real_time_monitoring_dashboard/,11,1e42o3l,Real time Monitoring dashboard 🚀,False,False,Far-Mixture-2254
