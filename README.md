@@ -6,6 +6,14 @@ This repository contains a data engineering pipeline to extract, transform, and 
 
 The goal of this project is to build a robust and scalable data pipeline that automates the process of collecting Reddit data, transforming it, and storing it in AWS S3 for further analysis.
 
+## Features
+
+- **Data Extraction:** Fetches posts from Reddit using PRAW.
+- **Data Transformation:** Processes and cleans the data, including handling data types and missing values.
+- **Data Loading:** Saves the processed data to CSV files.
+- **Error Handling and Retry Mechanisms:** Implements exception handling and retry logic to manage API request failures and ensure data consistency.
+- **Scheduling:** Uses Apache Airflow for task scheduling and orchestration.
+
 ## Project Structure
 
 ```plaintext
@@ -23,25 +31,38 @@ The goal of this project is to build a robust and scalable data pipeline that au
 ├── Dockerfile                 # Dockerfile for containerizing the project
 └── README.md                  # Project documentation
 ```
-## Requirements
-* To install the required dependencies, run:
- ```plaintext
- pip install -r requirements.txt
- ```
- Or
- ```plaintext
- pip freeze > requirements.txt
- ```
-* To create necessary folders, run:
-  ```plaintext
-  mkdir config dags data etls logs pipelines tests utils
-  ```
-## Configuration
-Ensure the config.conf file is properly configured with the necessary credentials and settings for Reddit API and AWS services.
 
-## Usage
+## Getting Started
 
-1. Setting Up Airflow:
+### Prerequisites
+
+- Python 3.8 or higher
+- PRAW
+- Apache Airflow
+- Docker
+- Pandas
+- NumPy
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/reddit-data-pipeline.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd reddit-data-pipeline
+    ```
+
+3. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Setting Up Airflow:
   * Initialize the Airflow database:
     ```plaintext
     airflow db init
@@ -51,7 +72,7 @@ Ensure the config.conf file is properly configured with the necessary credential
     airflow webserver --port 8080
     airflow scheduler
     ```
-2. Using Docker:
+5. Using Docker:
   * Build the Docker image:
   ```plaintext
   docker build -t reddit-etl:latest .
@@ -60,12 +81,30 @@ Ensure the config.conf file is properly configured with the necessary credential
     ```plaintext
     docker compose up -d --build
     ```    
-3. Running the Pipeline:
+6. Running the Pipeline:
   * Trigger the DAG defined in reddit_dag.py from the Airflow web UI or CLI.
   * The DAG orchestrates the following steps:
     * Extracting data from Reddit using the reddit_pipeline.py
     * Transforming the data using reddit_etl.py
     * Loading the transformed data to AWS S3 using aws_s3_pipeline.py and aws_etl.py
+      
+### Configuration
+
+Update the `config/config.conf` file with your Reddit API credentials and AWS S3 credentials. Ensure this file is excluded from version control to keep your credentials secure.
+
+### Retry Mechanism
+
+The pipeline includes retry logic for handling API request failures:
+
+- **Retry Attempts:** Configured to retry on server errors (HTTP 500) up to a specified number of times.
+- **Backoff Strategy:** Exponential backoff is used between retries to avoid overwhelming the server.
+
+### Error Handling
+
+The pipeline handles common errors such as:
+
+- **Connection Errors:** Managed by retrying the request.
+- **Data Transformation Errors:** Logs errors and continues processing.
 
 ## What I Did
 
